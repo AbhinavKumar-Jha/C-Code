@@ -3,11 +3,10 @@ int main(){
     int n;
     printf("Enter a number :");
     scanf("%d",&n);
-    if(n%5==0){
-        printf("Divisible by 5");
-    }
-    else{
-        printf("Not Divisible by 5");
+    int a=1;
+    for(int i=1;i<=n;i++){
+        printf("%d ",a);
+        a=a*2;
     }
     return 0;
 }
